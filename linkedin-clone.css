@@ -309,6 +309,12 @@ li::marker{
 .profile{
      display: none;
 }
+.body_main{
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 35px;
+}
 .header{
     width:100%;
     height: 50px;
