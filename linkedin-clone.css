@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: black;
 }
 
 .header {
@@ -60,7 +60,7 @@ body {
     width: 100%;
     display: flex;
     position: relative;
-    top: 35px;
+    bottom: 33px;
     left: 80px;
 }
 
@@ -87,7 +87,7 @@ body {
     background: white;
     width: 100%;
     height: 150px;
-    border: 1px solid blue;
+    border: 1px solid greenyellow;
 }
 
 .sidebar_top h2 {
@@ -110,7 +110,7 @@ body {
     position: relative;
     top: 10px;
     padding: 10px;
-     border: 1px solid black; 
+    border: 1px solid black;
     background-color: white;
     border-radius: 10px;
 }
@@ -124,7 +124,7 @@ body {
     position: relative;
     top: 30px;
     padding: 10px;
-    border: 1px solid blue;
+    border: 1px solid greenyellow;
     background-color: white;
     border-radius: 10px;
 }
@@ -140,7 +140,7 @@ body {
     height: 90px;
     background: white;
     border-radius: 20px;
-    border: 1px solid blue;
+    border: 1px solid green;
 }
 
 .imgages {
@@ -175,7 +175,7 @@ body {
     left: 90px;
     top: 40px;
     outline: none;
-    border-color: blue;
+    border-color: black;
 }
 
 .post {
@@ -185,7 +185,7 @@ body {
     position: relative;
     top: 20px;
     border-radius: 20px;
-    border: 1px solid blue;
+    border: 1px solid greenyellow;
 }
 
 .post2 {
@@ -195,7 +195,7 @@ body {
     position: relative;
     top: 40px;
     border-radius: 20px;
-    border: 1px solid blue;
+    border: 1px solid greenyellow;
 }
 
 .post3 {
@@ -205,7 +205,7 @@ body {
     position: relative;
     top: 50px;
     border-radius: 20px;
-    border: 1px solid blue;
+    border: 1px solid greenyellow;
 }
 
 .img1 img {
@@ -266,7 +266,7 @@ body {
     position: relative;
     left: 40px;
     border-radius: 20px;
-    border: 1px solid blue;
+    border: 1px solid greenyellow;
     display: flex;
 }
 
@@ -278,7 +278,7 @@ body {
     top: 50px;
     left: 40px;
     border-radius: 20px;
-    border: 1px solid blue;
+    border: 1px solid greenyellow;
     display: flex;
 }
 
@@ -305,6 +305,26 @@ li::marker {
     width: auto;
     padding-top: 10px;
     font-weight: 600;
+}
+
+.wrapper {
+    border: 1px solid greenyellow;
+    background-color: white;
+    display: flex;
+    width: 300px;
+    height: auto;
+    flex-direction: row-reverse;
+    text-size-adjust: 30px;
+}
+
+.msg_cont {
+    width: 250px;
+    height: 80px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 80px;
+    left: 50px;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------- */
