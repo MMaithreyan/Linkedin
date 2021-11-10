@@ -4,6 +4,7 @@
 }
 
 body {
+    width: 94%;
     background-color: black;
 }
 
@@ -397,6 +398,9 @@ li::marker {
         width: fit-content;
         height: fit-content;
         padding: 0px;
+    }
+    .profile{
+        display: none;
     }
     .options {
         padding-right: 12px;
