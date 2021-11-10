@@ -322,6 +322,7 @@ li::marker {
     width: 250px;
     height: 80px;
     background-color: white;
+    border: 2px solid yellow;
     border-radius: 5px;
     position: relative;
     top: 80px;
@@ -399,7 +400,7 @@ li::marker {
         height: fit-content;
         padding: 0px;
     }
-    .profile{
+    .profile {
         display: none;
     }
     .options {
