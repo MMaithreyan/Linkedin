@@ -4,7 +4,7 @@
 }
 
 body {
-    width: 94%;
+    width: 100%;
     background-color: black;
 }
 
@@ -42,6 +42,9 @@ body {
 
 .header_right {
     display: flex;
+
+    justify-content: space-evenly;
+    background-color: greenyellow;
     float: right;
     position: relative;
     bottom: 65px;
@@ -54,15 +57,15 @@ body {
 }
 
 .options:hover {
-    color: orange;
+    color: green;
 }
 
 .body_main {
     width: 100%;
     display: flex;
-    position: relative;
-    bottom: 33px;
-    left: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+
 }
 
 .sidebar {
@@ -256,12 +259,11 @@ body {
 
 .right_sidebar {
     width: 20%;
-    position: relative;
-    left: 40px;
+    margin-left: 60px;
 }
 
 .fir_sidebar {
-    width: 101%;
+    width: 100%;
     height: fit-content;
     background-color: white;
     position: relative;
@@ -272,7 +274,7 @@ body {
 }
 
 .sec_sidebar {
-    width: 110%;
+    width: 100%;
     height: fit-content;
     background-color: white;
     position: relative;
@@ -331,44 +333,55 @@ li::marker {
 
 /* -------------------------------------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width:400px) {
+@media screen and (max-width:400px) {
     * {
         margin: 0;
         padding: 0;
     }
+
     .sidebar {
         display: none;
     }
+
     .right_sidebar {
         display: none;
     }
+
     .search_feed {
         display: none;
     }
+
     .me {
         display: none;
     }
+
     .feed {
         display: none;
     }
+
     .search_continer {
         display: none;
     }
+
     .left {
         display: none;
     }
+
     .middle_continer {
         width: 100%;
     }
+
     .profile {
         display: none;
     }
+
     .body_main {
         width: 100%;
         display: flex;
         position: relative;
         top: 35px;
     }
+
     .header {
         width: 100%;
         height: 50px;
@@ -380,10 +393,12 @@ li::marker {
         left: 100px;
         z-index: 1;
     }
+
     .search {
         position: relative;
         top: 1px;
     }
+
     .post {
         width: 100%;
         height: fit-content;
@@ -391,23 +406,28 @@ li::marker {
         margin-top: -31px;
         border-radius: 20px;
     }
+
     .search {
         display: none;
     }
+
     .header_right {
         display: contents;
         width: fit-content;
         height: fit-content;
         padding: 0px;
     }
+
     .profile {
         display: none;
     }
+
     .options {
         padding-right: 12px;
         position: relative;
         left: 25px;
     }
+
     .options h3 {
         position: relative;
         right: 14px;
