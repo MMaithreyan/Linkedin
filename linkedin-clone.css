@@ -379,9 +379,9 @@ li::marker {
     }
 
     .middle_continer {
-        width: 100%;
+        width: 107%;
         position: relative;
-        left: 15px;
+        left: -16px;
     }
 
     .profile {
