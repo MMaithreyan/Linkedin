@@ -54,8 +54,8 @@ body {
 
 .options {
     padding-right: 60px;
-    position: relative;
-    left: 40px;
+    /* position: relative;
+    left: 40px; */
 }
 
 .options:hover {
@@ -373,13 +373,22 @@ li::marker {
     .left {
         display: none;
     }
-
+.options h3{
+    display: none;
+}
     .middle_continer {
         width: 100%;
     }
 
     .profile {
         display: none;
+    }
+    .body_main{
+        display: flex;
+    margin-top: 0px;
+    max-width: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     }
 
     /* .body_main {
