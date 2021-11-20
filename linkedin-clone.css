@@ -383,13 +383,7 @@ li::marker {
     .profile {
         display: none;
     }
-    .body_main{
-        display: flex;
-    margin-top: 0px;
-    max-width: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    }
+    
 
     /* .body_main {
         width: 100%;
